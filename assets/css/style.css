@@ -89,6 +89,9 @@ button:focus{
 .card img:hover{
     filter: opacity(0.5);
 }
+.status img:hover{
+    filter: opacity(0.5);
+}
 .card h5{
     font-size: 16px;
     font-weight: bold;       
