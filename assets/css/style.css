@@ -9,10 +9,11 @@
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
-    
+    flex-basis: 0;
+    flex-shrink: 0;
 }
 .user{
-    border: 1px solid black;
+    border: 1px solid #E8E8E4;
     height: 3em;
     display: flex;
     justify-content: space-between;
@@ -22,14 +23,17 @@
     width: 20%;
     border-radius: 50%;
     padding: 20px;
+    padding-left: 20px;
 }
 .user h5{
     font-size: 16px;
     font-weight: bold;
+    color: #1B1F21;
 
 }
 .user p{
     font-size: 10px;
+    color: #444749;
 }
 .status{
     display: flex;
@@ -39,7 +43,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 0 0 77px;
+    padding: 0 0 0 70px;
 }
 button {
     background-color: #A491D2;   
@@ -53,7 +57,13 @@ button {
     justify-content: center;
     align-items: center;
 }
+button:hover{
+    background-color:#CDC3E6 ;      
+}
 
+button:focus{
+    background-color: #BEC1BB;      
+}
 
 .contacts {
     flex: 0 0 3rem;
@@ -78,10 +88,28 @@ button {
 .card h5{
     font-size: 20px;
     color: #1B1F21;
+    font-weight: bold;
+    margin-left: 10px;
 }
 .card p{
     text-align: left;
     font-size: 15px;
     color: #444749;
     margin-left: 10px;
+}
+.mainly-section {
+    background-color:#E8EBE4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainly-section img {
+    width: 20%;
+    padding: 2em;
+}
+  
+.mainly-section h1 {
+    font-size: 45px;    
 }
