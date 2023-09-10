@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    
+}
+.user{
+    border: 1px solid black;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user img{
+    width: 20%;
+    border-radius: 50%;
+    padding: 20px;
+}
+.user h5{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.user p{
+    font-size: 10px;
+}
